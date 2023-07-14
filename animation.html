@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+width: 100px;
+height: 100px;
+background-color: red;
+position: relative;
+border-radius: 100%;
+animation: 4s infinite alternate-reverse;
+animation-name: example;
+left: 400px;
+top: 200px;
+
+}
+
+
+
+
+@keyframes example {
+    0% {background-color:red;}
+ 25% {background-color:yellow; }
+ 50% {background-color:blue;}        
+ 75% {background-color:green ;}
+ 100% {background-color:red;}
+
+ from{transform: rotate(0deg)translate(-165px);}
+    to{transform:rotate(360deg)translate(-165px); }
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+  <div></div>
+ 
+
+</body>
+</html>
